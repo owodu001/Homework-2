@@ -46,6 +46,12 @@ li {
     }
 }
 
+@media (max-width:767px) {
+    .list {
+        text-align: center;
+    }
+}
+
 .name {
     background-color: pink;
     text-align: center;
