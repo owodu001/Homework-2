@@ -46,9 +46,10 @@ body {
     background-color: lightgrey;
 }
 
-footer {
+
+/* footer {
     background-color: lightsalmon;
-}
+} */
 
 .top {
     border-bottom: solid 4px darkgrey;
@@ -65,6 +66,7 @@ footer {
     border-top: solid 4px pink;
     width: 100%;
     bottom: 0px;
+    position: fixed;
     height: 60px;
     text-align: center;
     padding: 10px 0;
