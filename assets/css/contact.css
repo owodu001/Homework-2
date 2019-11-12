@@ -90,7 +90,7 @@ footer {
     width: 100%;
     bottom: 0px;
     height: 60px;
-    position: fixed;
+    position: sticky;
     text-align: center;
     padding: 20px 0;
     left: 0px;
