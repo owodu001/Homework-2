@@ -1,5 +1,21 @@
-.main-section { 
-  background-color: white;
+.main-section {
+    background-color: white;
+}
+
+.side-columns {
+    background-color: lightgrey;
+}
+
+@media (max-width:991px) {
+    .side-columns {
+        background-color: white;
+    }
+}
+
+@media (max-width:767px) {
+    .gap {
+        height: 300px
+    }
 }
 
 .navbar-nav {
@@ -14,18 +30,25 @@ header {
     background-color: white;
     width: 100%;
 }
+
 li {
     margin: 5px;
 }
 
+.no-padding {
+    padding: 0px;
+}
 
-
-
+@media (max-width: 767px) {
+    .no-padding {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
 
 .name {
     background-color: pink;
-    margin: 0 auto;
-    margin-left: 30px;
+    text-align: center;
 }
 
 .aboutme {
@@ -34,7 +57,7 @@ li {
 
 body {
     background-color: lightgrey;
-} 
+}
 
 footer {
     background-color: lightsalmon;
@@ -45,10 +68,9 @@ footer {
     background-color: White;
 }
 
-
 .pic {
     background-color: white;
-    height: 350px;
+    /* height: 350px; */
 }
 
 .footer {
@@ -58,11 +80,10 @@ footer {
     bottom: 0px;
     height: 60px;
     text-align: center;
-    padding:10px 0;
+    padding: 10px 0;
     margin-bottom: 0;
 }
 
-
-.gap{
+.gap {
     height: 70px;
 }

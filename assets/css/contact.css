@@ -9,6 +9,15 @@
     margin-left: 480px;
 }
 
+.top {
+    border-bottom: solid 4px darkgrey;
+    background-color: White;
+}
+
+.gap{
+    height: 70px;
+}
+
 .contact {
 border-bottom: 4px solid lightgray;
 }
@@ -23,7 +32,8 @@ border-bottom: 4px solid lightgray;
       background-color: white;
       width: 100%;
   }
-  li {
+  
+  .list {
       margin: 5px;
   }
   
@@ -40,9 +50,8 @@ border-bottom: 4px solid lightgray;
   }
   
   .name {
-      background-color: pink;
-      margin: 0 auto;
-      margin-left: 30px;
+        background-color: pink;
+        text-align: center;
   }
   
   .aboutme {
@@ -96,3 +105,5 @@ border-bottom: 4px solid lightgray;
   .margins {
     margin-left: 2px;
   }
+
+  
