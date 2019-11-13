@@ -14,8 +14,12 @@
     background-color: White;
 }
 
+.right {
+    right: 0;
+}
+
 .gap {
-    height: 94px;
+    height: 105px;
 }
 
 .contact {
